@@ -28,7 +28,7 @@ public class ChatListener {
         // Example: 'From [OWNER] hypixel: hello'
         String pmRegex = EnumChatFormatting.LIGHT_PURPLE + "From .*" + EnumChatFormatting.GRAY + ": .*";
         if (message.matches(pmRegex)) {
-            message = message.replaceFirst(":", ":§r");
+            message = message.replaceFirst(":", ":" + EnumChatFormatting.RESET);
             event.setCanceled(true);
             Minecraft.getMinecraft().thePlayer.addChatMessage(new ChatComponentText(message));
         }
