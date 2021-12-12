@@ -1,0 +1,16 @@
+[
+{
+  "modid": "betterhypixelchat",
+  "name": "Better Hypixel Chat",
+  "description": "Changes certain chat messages on Hypixel (such as PMs and non chat) from gray to white",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["kthchew"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
